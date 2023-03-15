@@ -1,0 +1,39 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body { 
+    background-color: #edece9;
+    color: #775548;
+
+}
+
+
+.fondo-inicio {      /* tamaño de imagen */
+    width: 100%;
+   
+}
+
+.navbar {           /* barra de navegacion */
+    color: #ef6d24;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    color: #775548;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: #775548;
+    color: #e1d4cf;
+
+}
+
+.titulo-especial {
+    color: #d8b03b;
+}
