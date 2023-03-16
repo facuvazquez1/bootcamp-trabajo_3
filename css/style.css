@@ -1,7 +1,7 @@
 * {
     font-family: Verdana, Arial, sans-serif;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 body { 
@@ -20,6 +20,18 @@ body {
     color: #ef6d24;
     font-weight: bold;
     font-size: 16px;
+}
+
+.link {
+    color: #ef6d24;
+}
+
+.link2 {
+    color: #3AABC4;
+}
+
+.link3 {
+    color: red;
 }
 
 h1 {
