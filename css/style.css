@@ -1,7 +1,7 @@
 * {
     font-family: Verdana, Arial, sans-serif;
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 body { 
@@ -48,4 +48,28 @@ h2 {
 
 .titulo-especial {
     color: #d8b03b;
+}
+
+.mapa {
+    border: 3px solid #775548;
+    display: inline-block;
+}
+
+.container {
+    overflow: hidden; /* Limpiar el float */
+   
+}
+
+.imagen {
+    float: left; /* Hacer que la imagen flote a la izquierda */
+    margin-right: 20px; /* Añadir un espacio entre la imagen y el texto */
+}
+
+.lista {
+        display: inline-block; /* Hacer que la lista se muestre en línea con el texto e imagen */
+        margin-left: 10px; /* Agregar un margen a la izquierda para separar la lista de la imagen */
+}
+
+.lista li {
+    padding-bottom: 10px; /* Agregar un relleno en la parte inferior de cada ítem de la lista */
 }
