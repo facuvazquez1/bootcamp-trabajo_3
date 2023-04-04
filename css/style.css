@@ -4,9 +4,16 @@
     font-size: 16px;
 }
 
+:root {  /* Variables de colores */
+
+    --colorPrincipal: #775548;
+    --colorSecundario: #ef6d24;  
+}
+
+
 body { 
     background-color: #edece9;
-    color: #775548;
+    color: var(--colorPrincipal);
 
 }
 
@@ -17,13 +24,13 @@ body {
 }
 
 .navbar {           /* barra de navegacion */
-    color: #ef6d24;
+    color: var(--colorSecundario);
     font-weight: bold;
     font-size: 16px;
 }
 
 .link {
-    color: #ef6d24;
+    color: var(--colorSecundario);
 }
 
 .link2 {
@@ -35,13 +42,13 @@ body {
 }
 
 h1 {
-    color: #775548;
+    color: var(--colorPrincipal);
     font-size: 26px;
     font-weight: bold;
 }
 
 h2 {
-    background-color: #775548;
+    background-color: var(--colorPrincipal);
     color: #e1d4cf;
 
 }
@@ -51,7 +58,7 @@ h2 {
 }
 
 .mapa {
-    border: 3px solid #775548;
+    border: 3px solid var(--colorPrincipal);
     display: inline-block;
 }
 
@@ -73,3 +80,14 @@ h2 {
 .lista li {
     padding-bottom: 10px; /* Agregar un relleno en la parte inferior de cada ítem de la lista */
 }
+
+.contacto {
+    border: 3px solid var(--colorSecundario);
+    background-color: var(--colorPrincipal);
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #e1d4cf;
+  }
+
+
